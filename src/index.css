@@ -1,0 +1,51 @@
+:root {
+  --ink: #111214;
+  --ink-soft: #4b4f56;
+  --paper: #f7f6f3;
+  --card: #ffffff;
+  --line: #e4e2dc;
+  --accent: #ff5714;
+  --accent-dark: #d94407;
+  --success: #15803d;
+  --danger: #b91c1c;
+  --radius: 12px;
+  --shadow: 0 8px 24px rgba(17, 18, 20, 0.08);
+  --sans: "Segoe UI", system-ui, Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  margin: 0 0 12px;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
