@@ -1,0 +1,64 @@
+.seed-page {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.seed-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px 32px;
+  width: min(520px, 100%);
+  text-align: center;
+}
+
+.seed-card h1 {
+  font-size: 26px;
+}
+
+.seed-card p {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.seed-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.seed-btn:hover {
+  background: var(--accent-dark);
+}
+
+.seed-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.seed-message {
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.seed-message.done {
+  color: var(--success);
+}
+
+.seed-message.error {
+  color: var(--danger);
+}
+
+.seed-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--accent);
+  font-weight: 700;
+}
